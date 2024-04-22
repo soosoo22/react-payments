@@ -76,7 +76,7 @@ const Input = ({
       placeholder={placeholder}
       key={index}
       value={data[index]}
-    ></Styled.InputWrapper>
+    />
   );
 };
 

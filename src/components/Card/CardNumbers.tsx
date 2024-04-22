@@ -9,6 +9,7 @@ const Styled = {
     width: 170px;
     height: 20px;
   `,
+
   Dot: styled.span`
     display: inline-block;
     background-color: #fff;

@@ -70,7 +70,7 @@ const CardRegistrationCompletePage = () => {
       </Styled.CardRegistrationMessage>
       <Styled.RegistrationCompleteButton
         onClick={() => {
-          navigate("/");
+          navigate("/cardRegistrationPage");
         }}
       >
         확인

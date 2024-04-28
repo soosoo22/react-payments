@@ -6,9 +6,9 @@ import CardRegistrationCompletePage from "./components/CardRegistrationCompleteP
 function App() {
   return (
     <>
-      <BrowserRouter basename={"/react-payments/dist"}>
+      <BrowserRouter basename={"/react-payments/dist/"}>
         <Routes>
-          <Route path="/cardRegistrationPage" element={<CardRegistrationPage />} />
+          <Route path="/" element={<CardRegistrationPage />} />
           <Route path="/cardRegistrationCompletePage" element={<CardRegistrationCompletePage />} />
         </Routes>
       </BrowserRouter>

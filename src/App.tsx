@@ -8,7 +8,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/cardRegistrationPage" element={<CardRegistrationPage />} />
+          <Route path="/" element={<CardRegistrationPage />} />
           <Route path="/cardRegistrationCompletePage" element={<CardRegistrationCompletePage />} />
         </Routes>
       </BrowserRouter>

@@ -16,6 +16,8 @@ export const Default: Story = {
     inputCount: 1,
     type: "password",
     placeholders: [""],
+    cardPassword: [],
+    setCardPassword: () => {},
     onValidation: () => {},
     onFocus: () => {},
   },

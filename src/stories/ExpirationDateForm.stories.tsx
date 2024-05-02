@@ -16,6 +16,8 @@ export const Default: Story = {
     inputCount: 2,
     type: "text",
     placeholders: ["MM", "YY"],
+    expirationDate: [],
+    setExpirationDate: () => {},
     onValidation: () => {},
     onFocus: () => {},
   },

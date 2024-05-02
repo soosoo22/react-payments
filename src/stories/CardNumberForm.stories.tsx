@@ -16,6 +16,8 @@ export const Default: Story = {
     inputCount: 4,
     type: "text",
     placeholders: ["1234", "1234", "1234", "1234"],
+    cardNumbers: [],
+    setCardNumbers: () => {},
     onValidation: () => {},
     onFocus: () => {},
   },

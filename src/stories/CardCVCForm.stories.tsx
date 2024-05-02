@@ -16,6 +16,8 @@ export const Default: Story = {
     inputCount: 1,
     type: "text",
     placeholders: ["123"],
+    cardCVC: [],
+    setCardCVC: () => {},
     onValidation: () => {},
     onFocus: () => {},
   },

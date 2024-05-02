@@ -16,6 +16,8 @@ export const Default: Story = {
     inputCount: 1,
     type: "text",
     placeholders: ["JOHN DOE"],
+    cardOwner: [],
+    setCardOwner: () => {},
     onValidation: () => {},
     onFocus: () => {},
   },
